@@ -29,8 +29,7 @@ This dataset contains two seperate tables:
 How can HBO maximize profits when releasing new movies or tv shows?
 
 ### Research Objectives and Question(s)
-Movies and TV shows are the main source of income for HBO Max. 
-Thus, we want to predict/correlate different metrics in relation to imdb/tmdb ratings.
+HBO Max is a premium streaming service that allows users to stream popular movies and tv shows for a month or yearly fee. They generate revenue based on the interest level and recurring subscriptions. The ratings of the movies and shows on their platform have a direct relationship with how they perform as a corporation. Thus, we want to predict/correlate different "success" metrics in relation to imdb/tmdb ratings.
 
 For example:
 - What is the relationship between runtime and how the movie/show performed?
