@@ -13,7 +13,8 @@ The platform we are using to communicate the project related work is Slack. Toge
 
 ### Dataset
 
-![image](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.getfitover40.com%2Fpost%2F2013%2F9%2F4%2Fwhat-is-crossfit.html&psig=AOvVaw26soiqoRwXLCLYYfzo8-n-&ust=1682217732881000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMj3xcW7vP4CFQAAAAAdAAAAABAJ)
+![image](![image](https://user-images.githubusercontent.com/130528543/233758000-dd2667d7-21e4-4338-aacf-cc298412a56d.png)
+)
 
 https://www.kaggle.com/datasets/ulrikthygepedersen/crossfit-athletes
 
