@@ -9,59 +9,29 @@
 
 ## Communcation
 
-The platform we are using to communicate the project related work is Slack.
-
-## Option 1
+The platform we are using to communicate the project related work is Slack. Together we came up with the idea of working with a Crossfit Athletes dataset that contains information on athlete demographics like age, gender, training experience as well as their performance metrics such as time, weight lifted, and repetitions completed.
 
 ### Dataset
 
-![image](https://variety.com/wp-content/uploads/2020/04/hbo-max.png)
+![image](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.getfitover40.com%2Fpost%2F2013%2F9%2F4%2Fwhat-is-crossfit.html&psig=AOvVaw26soiqoRwXLCLYYfzo8-n-&ust=1682217732881000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMj3xcW7vP4CFQAAAAAdAAAAABAJ)
 
-https://www.kaggle.com/datasets/dgoenrique/hbo-max-movies-and-tv-shows
+https://www.kaggle.com/datasets/ulrikthygepedersen/crossfit-athletes
 
-This dataset contains two seperate tables:
-- titles.csv
-  - this table contains information regarding ratings, genre, runtime, etc
-- credits.csv
-  - this table contains information regarding actors/actresses, characters, directors, etc
+A huge set of data from competitions and events around the world has been put together to learn more about the traits and abilities of CrossFit athletes. This set of data includes information about the athlete's age, gender, and training experience, as well as their time, weight lifted, and number of repetitions. The dataset includes many different CrossFit events and competitions, giving a lot of information about how athletes did in different situations.
+
+By looking at the data, researchers can find trends and patterns that may be linked to higher levels of performance, such as age, gender, training volume, and exercise choice. This information can be used to make training plans for CrossFit athletes that are based on facts and improve their physical skills while lowering the risk of injury.
+
+This dataset contains complete training data of different athletes collected from different competitions and events around the world including the country they are from, their previous training and experience data. It has 423006 rows, 27 feature columns.
   
 ### Business Objective/Problem
-How can HBO maximize profits when releasing new movies or tv shows?
+We can create an analytics and insights service tailored to CrossFit competitors, trainers, and facilities. Athlete dataset data can shed light on current CrossFit trends, performance standards, and competitive landscape. Using this service, CrossFitters can learn about what's new in the field and use that knowledge to improve their own workouts, instruct others, or run a successful gym.
+
 
 ### Research Objectives and Question(s)
-HBO Max is a premium streaming service that allows users to stream popular movies and tv shows for a month or yearly fee. They generate revenue based on the interest level and recurring subscriptions. The ratings of the movies and shows on their platform have a direct relationship with how they perform as a corporation. Thus, we want to predict/correlate different "success" metrics in relation to imdb/tmdb ratings.
-
-For example:
-- What is the relationship between runtime and how the movie/show performed?
-- What significance does the genre have in relation to its popularity? Does the release year also affect this relationship?
-
-## Option 2
-
-### Dataset
-
-![image](https://media.cnn.com/api/v1/images/stellar/prod/221219105607-messi-crowd-world-cup-121822.jpg?c=original&q=w_1280,c_fill)
-
-https://www.kaggle.com/datasets/shivd24coder/fifa-world-cup-dataset
-
-This dataset contains four seperate tables:
-- goals.csv
-  - this table contains information regarding scoring events. This includes the minute a goal was scored, who scored the goal, and the score of both teams
-- team.csv
-  - this table contains data regarding players such as name, age, position, etc
-- attendance.csv
-  - this table contains data regarding the date of the game, stadium, referee, stage, etc
-- match.csv
-  - this table contains data regarding score, round, teams, etc
-  
-### Business Objective/Problem
-What are the best times to display commercials or advertisements?
-
-### Research Objectives and Question(s)
-Outside of ticket sales, advertisement revenue is one of the main methods for countries and broadcasting companies to make money during the world cup.
-Thus, we want to measure/predict the points of the match that will be have the least amount of goals scored or action events. These points would be the most ideal for displaying advertisements.
-
-For example:
-- When have goals typically been scored in the past decade?
-- Does stadium/environment have any affect on when goals are scored?
-- Does the attendance of the match have any affect on how many goals are scored or shots taken?
+1.	Identifying the patterns in athlete performance
+2.	Identifying the most successful countries and regions 
+3.	Comparing male and female athlete performances
+4.	Predicting the likelihood of an athlete making it to the CrossFit Games
+5.	Predicting the winner of individual events
+6.	Predicting the winner based on how long they’ve been trained and their diet information.
 
