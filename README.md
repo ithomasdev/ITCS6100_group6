@@ -13,7 +13,7 @@ The platform we are using to communicate the project related work is Slack. Toge
 
 ### Dataset
 
-![image](![image](https://user-images.githubusercontent.com/130528543/233758000-dd2667d7-21e4-4338-aacf-cc298412a56d.png)
+![image](https://www.crossfit.com/wp-content/uploads/2022/10/08103509/Quarterfinals-Pia-Gund-27-min-scaled-e1678300615938-1920x1056.jpg)
 )
 
 https://www.kaggle.com/datasets/ulrikthygepedersen/crossfit-athletes
