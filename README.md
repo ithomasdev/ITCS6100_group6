@@ -33,5 +33,5 @@ We can create an analytics and insights service tailored to CrossFit competitors
 3.	Comparing male and female athlete performances
 4.	Predicting the likelihood of an athlete making it to the CrossFit Games
 5.	Predicting the winner of individual events
-6.	Predicting the winner based on how long they’ve been trained and their diet information.
+6.	Predicting the winner based on how long they’ve been trained and their diet information. 
 
