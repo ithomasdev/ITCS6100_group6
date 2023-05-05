@@ -35,3 +35,37 @@ We can create an analytics and insights service tailored to CrossFit competitors
 5.	Predicting the winner of individual events
 6.	Predicting the winner based on how long they’ve been trained and their diet information. 
 
+## Cleaning
+````
+# read dataframe from csv
+df = pd.read_csv("./data/athletes.csv")
+
+# drop unused columns for optimization
+df = df.drop(['athlete_id', 'name', 'region', 'team', 'affiliate', 'eat', 'train', 'background', 'experience', 'schedule', 'howlong'], axis=1)
+
+# drop bad values in gender column
+df = df.dropna(subset=['gender'])
+df = df[df.gender != '--']
+
+le = LabelEncoder()
+df['gender'] = le.fit_transform(df['gender'])
+
+# create an imputer with mean strategy
+imputer = SimpleImputer(strategy='mean')
+
+# imputting median values for each NaN value
+clean_data = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
+
+# remove corrupt values
+clean_data = clean_data[clean_data['height'] <= 202]
+clean_data = clean_data[clean_data['weight'] <= 210] 
+
+# scale the data
+scaler = StandardScaler()
+scaled_data = pd.DataFrame(scaler.fit_transform(clean_data), columns=clean_data.columns)
+````
+
+## Models
+- KMeans Clustering
+- Density Based Clustering
+- Ridge Regression
